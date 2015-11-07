@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PULLING RANDOM FEATURED PHOTOS FROM THE UNSPLASH API</title>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+
+<!-- Google CDN for jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	
+<!-- My code to pull JSON data and populate DIVs -->
+<script src="./unsplashloader.js"></script>
+
+</head>
+	<body id="bodyID">
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="navbar-brand">PULLING RANDOM FEATURED PHOTOS FROM UNSPLASH API</div>
+	    </nav>
+			<div class="well">
+	      	</div>
+			<div class="page-header"><h3>GOAL</h3></div>
+			<blockquote>
+	  			<p>The goal of this little project was to learn how to pull data out of an API and populate a simple web page. Enjoy!</p>
+	 			 <footer><cite title=""><a href="https://github.com/8bitjeremy">8bitjeremy</a></cite></footer>
+			</blockquote>
+
+			<dl>
+			  <dt>NAME</dt>
+			  <dd><div id="name"></div></dd>
+			  <dt>USERNAME</dt>
+			  <dd><div id="username"></div></dd>
+			  <dt>THE PICTURE ID</dt>
+			  <dd><div id="id"></div></dd>
+			  <dt>THUMBNAIL</dt>
+			  <dd><div class=img-thumbnail id="thumb"></div></dd>
+			  <dt>A SMALL IMAGE</dt>
+			  <dd><div id="small"></div></dd>
+			  <dt>REGULAR IMAGE</dt>
+			  <dd><div class=img-thumbnail id="regular"></div></dd>
+			  <dt>A FULL IMAGE</dt>
+			  <dd><div class=img-thumbnail id="full"></div></dd>		
+			</dl>
+	</body>
+</html>
